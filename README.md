@@ -117,9 +117,9 @@ gemma3:latest           a2af6cc3eb7f    3.3 GB    47 hours ago
 
 I have two targets:
 - How can I get a LLM to remember previous sessions?
-  - solved. Reported in
+  - solved. Reported in https://github.com/FNakano/OnLLMUse/tree/main/history
 - How can I get a LLM to run OS or programming language commands?
-  - solved. Reported in
+  - solved. Reported in https://github.com/FNakano/OnLLMUse/tree/main/tool
   
 ## Index of structured notes
 
