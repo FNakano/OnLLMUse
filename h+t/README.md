@@ -6,6 +6,8 @@ Keep all conversation history is implemented in https://github.com/FNakano/OnLLM
 
 Tool call (function call) is documented here: https://github.com/FNakano/OnLLMUse/tree/main/tool
 
+There is some bug... at a certain point history is not updated anymore...
+
 ## Test result
 
 On a chat with Qwen3, I ask it to get some information (make tool calls), divert a little and ask for the previous information.
