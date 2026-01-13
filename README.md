@@ -10,6 +10,8 @@ These are my (structured) notes on LLM use. I make notes about anything I regard
 
 I chose to test LLMs running them on a desktop I already have. No specific investment for LLM use, by now. The desktop has core i7-12700 processor with 8GB DDR4-3200 RAM running Ubuntu 22.04 . The tool to test LLMs I chose is Ollama (https://ollama.com/). Just run `curl -fsSL https://ollama.com/install.sh | sh` to install Ollama, as instructed in Ollama site. The command installed Ollama version 0.13.5 .
 
+**update**: Upgraded RAM to 24GB because I was not able to run a browser instance, some command (OS) prompts, text editor and Ollama with Qwen3 with 8GB. Ollama prompted that there were only 3.3GB of free RAM (it suffices to run gemma3 (approx, 3.1GB needed but insufficient to qwen3 (approx. 5.1GB needed).
+
 To run a model, I followed the instructions in https://docs.ollama.com/quickstart#cli : `ollama run gemma3` this command downloaded, installed and run LLM `gemma` version 3.
 
 In runtime, a prompt was presented and I started chatting with the LLM which I called Gemma. I asked about what data is sent to Google. The answer was that some data can be used by Google and its use is regulated by some agreement. It was clear to me that the context of the answer was that the program was running on Google Cloud... it is curious that the program does not *know* that it is running on a desktop. It also is not programmed to get localhost MAC address.
